@@ -56,6 +56,7 @@ GO
 
 CREATE VIEW v_TopParts AS
 SELECT TOP(5) * FROM Parts
+ORDER By Price
 GO
 
 SELECT * FROM v_TopParts
